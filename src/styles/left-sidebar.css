@@ -1,0 +1,40 @@
+section.sidebar-container {
+  border: 3px solid blue;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  min-width: 17.875rem;
+  padding: 2em 0 0 3.5em;
+}
+section.sidebar-container .sidebar-nav-container {
+  margin-top: 2em;
+}
+section.sidebar-container .sidebar-nav-container .side-bar-link {
+  text-decoration: none;
+  color: #333333;
+  display: flex;
+  margin: 1.25em 0;
+  align-items: center;
+}
+section.sidebar-container .sidebar-nav-container .side-bar-link:first-child {
+  margin-top: 0;
+}
+section.sidebar-container .sidebar-nav-container .side-bar-link:last-child {
+  margin-bottom: 0;
+}
+section.sidebar-container .sidebar-nav-container .side-bar-link h3.sidebar-nav-name {
+  margin-left: 1rem;
+  font-weight: 700;
+}
+section.sidebar-container .tweet-button {
+  padding: 1em 4.375em;
+  border-radius: 6.25em;
+  border: 0;
+  background-color: #1DA1F2;
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 2em;
+}
+
+/*# sourceMappingURL=left-sidebar.css.map */

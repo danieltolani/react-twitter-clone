@@ -1,0 +1,48 @@
+@import 'config';
+
+
+section.sidebar-container{
+    border: 3px solid blue;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    min-width: 17.875rem;
+    padding: 2em 0 0 3.5em;
+
+    .sidebar-nav-container {
+        margin-top: 2em;
+      
+        .side-bar-link {
+          text-decoration: none;
+          color: $dark-text-color;
+          display: flex;
+          margin: 1.25em 0;
+          // border: 2px solid red;
+          align-items: center;
+      
+          &:first-child {
+            margin-top: 0;
+          }
+      
+          &:last-child {
+            margin-bottom: 0;
+          }
+      
+          h3.sidebar-nav-name {
+            margin-left: 1rem;
+            font-weight: $bold-weight;
+          }
+        }
+      }
+      
+      .tweet-button{
+          padding: 1em 4.375em;
+          border-radius: 6.25em;
+          border: 0;
+          background-color: $twitter-blue;
+          color: $light-text-color;
+          font-weight: $bold-weight;
+          margin-top: 2em;
+      }
+}
